@@ -3,15 +3,15 @@ Filters Mapsplice2 alignment output to prioritize mtDNA deletion breakpoints for
 
 # Dependencies<br/>        
 [Mapsplice](http://www.netlab.uky.edu/p/bioinfo/MapSplice2) <br/>
-[samtools](http://www.htslib.org/download) v>1.8<br/>
+[samtools](http://www.htslib.org/download) v1.8+<br/>
 python2.7.5 <br/>
 
 # Usage<br/>
-`./junctionFilter.sh [inputDir] [outputDir] [refDir]`
+`./Splice-Break.sh [inputDir] [outputDir] [refDir]`
 
 inputDir: path to alignment output <br/>
 outputDir: path for output files <br/>
-refDir: path containing the reference files provided
+refDir: path containing the reference files provided in /reference
 
 # Output<br/>
 1. Coverage.txt<br/>
@@ -21,9 +21,6 @@ refDir: path containing the reference files provided
 
 # Versioning<br/>
 Semantic Versioning 2.0.0
-
-# License<br/>
-MIT license
 
 # Contact<br/>
 **Brooke Hjelm**<br/>
